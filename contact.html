@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css/contact.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <div class="topnav">
+    <div class="dropdown">
+        <button class="dropbtn"><a href="index.html">Home</a>
+            <i class="fa fa-caret-down"></i>
+        </button>
+            <div class="dropdown-content">
+            <a href="index.html#one">Hiking</a>
+            <a href="index.html#two">Camping</a>
+            <a href="index.html#three">Fishing</a>
+            <a href="index.html#four">Rock Climbing</a>
+            </div>
+    </div>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact us</a>
+  </div>
+  </header>
+<h3>Sign up with us today!</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address..">
+
+    <label for="country">Categories</label>
+    <select id="activity" name="activity">
+      <option value="hiking">Hiking</option>
+      <option value="camping">Camping</option>
+      <option value="fishing">Fishing</option>
+      <option value="climbing">Rock Climbing</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <center><footer><h4>outdooradventures@gmail.com<h4></footer></center>
+</div>
+
+</body>
+</html>
